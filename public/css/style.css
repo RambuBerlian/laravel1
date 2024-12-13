@@ -1,0 +1,700 @@
+body {  
+    margin: 0;  
+    padding: 0;  
+    font-family: sans-serif;  
+    background-color: #f5f5f5;  
+    color: #333;  
+}  
+
+
+/* Style untuk bagian login */  
+#login .container {  
+    width: 400px;  
+    margin: 100px auto;  
+    background-color: #f70070;  
+    padding: 30px;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+
+#login h2 {  
+    text-align: center;  
+    color: #fff;  
+    margin-bottom: 20px;  
+}  
+
+#login input[type="text"],  
+#login input[type="password"] {  
+    width: 100%;  
+    padding: 10px;  
+    margin: 10px 0;  
+    border: none;  
+    background-color: #fff;  
+    border-radius: 5px;  
+}  
+
+#login input[type="text"]:focus,  
+#login input[type="password"]:focus {  
+    outline: none;  
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);  
+}  
+
+#login button {  
+    background-color: #fff;  
+    color: #f70070;  
+    padding: 12px 20px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    width: 100%;  
+    margin-top: 20px;  
+}  
+
+#login button:hover {  
+    background-color: #ddd;  
+}  
+
+#login .forgot-password {  
+    text-align: center;  
+    color: #fff;  
+    margin-top: 10px;  
+    font-size: 14px;  
+}  
+
+#login .register-link {  
+    text-align: center;  
+    color: #fff;  
+    margin-top: 20px;  
+    font-size: 14px;  
+}  
+
+#login .register-link a {  
+    color: #840091;  
+    text-decoration: none;  
+}  
+
+#login .register-link a:hover {  
+    text-decoration: underline;  
+}  
+.snackbar {
+    display: none;
+    min-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    font-size: 17px;
+    border: 1px solid #fff;
+}
+/* Style untuk bagian register */  
+#register .container {  
+    width: 400px;  
+    margin: 100px auto;  
+    background-color: #f70070;  
+    padding: 30px;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+
+#register h2 {  
+    text-align: center;  
+    color: #fff;  
+    margin-bottom: 20px;  
+}  
+
+#register input[type="text"],  
+#register input[type="password"] {  
+    width: 100%;  
+    padding: 10px;  
+    margin: 10px 0;  
+    border: none;  
+    background-color: #fff;  
+    border-radius: 5px;  
+}  
+
+#register input[type="text"]:focus,  
+#register input[type="password"]:focus {  
+    outline: none;  
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);  
+}  
+
+#register button {  
+    background-color: #fff;  
+    color: #f70070;  
+    padding: 12px 20px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    width: 100%;  
+    margin-top: 20px;  
+}  
+
+#register button:hover {  
+    background-color: #ddd;  
+}  
+
+#register label {  
+    color: #fff;  
+    margin-bottom: 5px;  
+    display: block;  
+}  
+
+#register .label-container {  
+    margin-bottom: 15px;  
+}  
+
+
+.container {  
+    max-width: 1200px;  
+    margin: 0 auto;  
+    padding: 20px;  
+}  
+
+.header {  
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+}  
+
+.logo {  
+    margin-right: 20px;  
+}  
+
+.logo img {  
+    height: 40px;  
+}  
+
+.nav {  
+    display: flex;  
+    align-items: center;  
+}  
+
+.nav a {  
+    text-decoration: none;  
+    color: #333;  
+    margin-right: 20px;  
+}  
+
+.content {  
+    text-align: center;  
+    margin-top: 50px;  
+}  
+
+h1 {  
+    font-size: 3em;  
+    margin-bottom: 20px;  
+}  
+
+.button {  
+    display: inline-block;  
+    padding: 10px 20px;  
+    background-color: #f70070;  
+    color: #fff;  
+    text-decoration: none;  
+    border-radius: 5px;  
+    margin-top: 20px;  
+}  
+
+.cakes {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    margin-top: 50px;  
+}  
+
+.cake {  
+    margin: 0 20px;  
+}  
+
+.cake img {  
+    width: 150px;  
+    height: auto;  
+}  
+
+.cake-image {
+    width: 10px;  /* Ubah nilai ini untuk memperkecil atau memperbesar gambar */
+    height: auto;  /* Menjaga proporsi gambar */
+}
+
+
+.footer {  
+    text-align: center;  
+    margin-top: 50px;  
+    font-size: 0.8em;  
+}  
+
+.products {  
+    display: flex;  
+    justify-content: space-between;  
+    margin-top: 50px;  
+    flex-wrap: wrap;  
+}  
+
+.product {  
+    background-color: #fff;  
+    padding: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    text-align: center;  
+    width: 23%;  
+    margin-bottom: 20px;  
+}  
+
+.product img {  
+    width: 100%;  
+    height: auto;  
+    margin-bottom: 10px;  
+}  
+
+.product h3 {  
+    margin-bottom: 5px;  
+    font-size: 1.2em;  
+}  
+
+.product p {  
+    margin-bottom: 10px;  
+    font-size: 0.9em;  
+}  
+
+.product .add {  
+    background-color: #f70070;  
+    color: #fff;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    text-decoration: none;  
+}  
+
+/* Tambahan style untuk halaman home */  
+#home {  
+    background-color: #f9f9f9;  
+    padding: 50px 0;  
+    text-align: center;  
+}  
+
+#home h1 {  
+    font-size: 3em;  
+    margin-bottom: 20px;  
+    color: #333;  
+}  
+
+#home .content {  
+    max-width: 800px;  
+    margin: 0 auto;  
+    padding: 0 20px;  
+}  
+
+#home .cakes {  
+    margin-top: 50px;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
+
+#home .cake {  
+    margin: 0 20px;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+#home .cake img {  
+    width: 150px;  
+    height: auto;  
+}  
+
+/* Style untuk navigasi pada halaman produk */  
+#products .header {  
+    background-color: #f9f9f9;  
+    padding: 20px 0;  
+    text-align: center;  
+}  
+
+#products .nav a {  
+    color: #f70070;  
+}  
+
+#products .nav a:hover {  
+    text-decoration: underline;  
+}  
+
+#products .footer {  
+    background-color: #f9f9f9;  
+    padding: 20px 0;  
+    text-align: center;  
+}  
+
+#products .product {  
+    background-color: #fff;  
+    padding: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    text-align: center;  
+    width: 23%;  
+    margin-bottom: 20px;  
+}  
+
+/* Style untuk gambar produk */  
+#products .product img {  
+    width: 100%;  
+    height: auto;  
+    margin-bottom: 10px;  
+    border-radius: 10px;  
+}  
+
+/* Style untuk deskripsi produk */  
+#products .product h3 {  
+    margin-bottom: 5px;  
+    font-size: 1.2em;  
+    color: #f70070;  
+}  
+
+#products .product p {  
+    margin-bottom: 10px;  
+    font-size: 0.9em;  
+}  
+
+/* Style untuk tombol Add */  
+#products .product .add {  
+    background-color: #f70070;  
+    color: #fff;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    text-decoration: none;  
+}  
+
+/* Style untuk bagian footer */  
+.footer {  
+    background-color: #f9f9f9;  
+    padding: 20px 0;  
+    text-align: center;  
+}  
+
+/* Style untuk keseluruhan halaman */  
+#home, #login, #register, #products {  
+    display: none;  
+}  
+
+#home {  
+    display: block;  
+}  
+
+/* Style untuk responsivitas */  
+@media screen and (max-width: 768px) {  
+    .products {  
+        flex-direction: column;  
+    }  
+    .product {  
+        width: 100%;  
+    }  
+}  
+
+@media screen and (max-width: 480px) {  
+    .container {  
+        padding: 10px;  
+    }  
+    .header {  
+        flex-direction: column;  
+    }  
+    .logo {  
+        margin-bottom: 10px;  
+    }  
+}
+
+/* General Body Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Container Style */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header & Navigation */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #f70070;
+}
+
+/* Transaction Container */
+.transaction-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-container h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    background-color: #f70070;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d6005a;
+}
+
+.tambah-data {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: fit-content;
+}
+
+/* Table Styles */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th,
+.data-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table th {
+    background-color: #f70070;
+    color: white;
+    text-align: center;
+}
+
+.data-table td {
+    text-align: center;
+}
+
+.edit-link, .delete-link {
+    color: #f70070;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.edit-link:hover, .delete-link:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+.input-transaction {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.input-transaction h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #f70070;
+    box-shadow: 0 0 5px rgba(247, 0, 112, 0.3);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Atur gaya untuk transaksi */
+.transaction-container {
+    padding: 20px;
+}
+
+.input-transaction {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.input-transaction .form-group {
+    margin: 10px 0;
+}
+
+.input-transaction label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-transaction input[type="text"],
+.input-transaction input[type="number"],
+.input-transaction input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #f70070;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Reset untuk menghapus margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya Umum untuk Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+}
+
+/* Gaya untuk Form Container */
+.form-container {
+    max-width: 500px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Judul Formulir */
+.form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Gaya untuk Form Entry */
+.form-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Label Input */
+.form-label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Input Field */
+.form-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+/* Efek Hover Input */
+.form-input:focus {
+    border-color: #555;
+    outline: none;
+}
+
+/* Tombol Submit */
+.form-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #555;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efek Hover Tombol */
+.form-button:hover {
+    background-color: #333;
+}
